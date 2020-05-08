@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/React-image-compressor/static/css/main.c7c44ed2.chunk.css",
+    "main.js": "/React-image-compressor/static/js/main.844216b3.chunk.js",
+    "main.js.map": "/React-image-compressor/static/js/main.844216b3.chunk.js.map",
+    "runtime-main.js": "/React-image-compressor/static/js/runtime-main.29988f90.js",
+    "runtime-main.js.map": "/React-image-compressor/static/js/runtime-main.29988f90.js.map",
+    "static/css/2.de424728.chunk.css": "/React-image-compressor/static/css/2.de424728.chunk.css",
+    "static/js/2.9f1f7397.chunk.js": "/React-image-compressor/static/js/2.9f1f7397.chunk.js",
+    "static/js/2.9f1f7397.chunk.js.map": "/React-image-compressor/static/js/2.9f1f7397.chunk.js.map",
+    "index.html": "/React-image-compressor/index.html",
+    "precache-manifest.fb99efb8eae38a61b1bc5ce23bdca1c3.js": "/React-image-compressor/precache-manifest.fb99efb8eae38a61b1bc5ce23bdca1c3.js",
+    "service-worker.js": "/React-image-compressor/service-worker.js",
+    "static/css/2.de424728.chunk.css.map": "/React-image-compressor/static/css/2.de424728.chunk.css.map",
+    "static/css/main.c7c44ed2.chunk.css.map": "/React-image-compressor/static/css/main.c7c44ed2.chunk.css.map",
+    "static/js/2.9f1f7397.chunk.js.LICENSE.txt": "/React-image-compressor/static/js/2.9f1f7397.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.29988f90.js",
+    "static/css/2.de424728.chunk.css",
+    "static/js/2.9f1f7397.chunk.js",
+    "static/css/main.c7c44ed2.chunk.css",
+    "static/js/main.844216b3.chunk.js"
+  ]
+}
