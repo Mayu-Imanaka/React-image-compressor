@@ -4,4 +4,5 @@ import ImageCompressor from "./components/ImageCompressor";
 
 const App = () => <ImageCompressor />;
 
+
 export default App;

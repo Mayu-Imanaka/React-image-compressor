@@ -1,6 +1,6 @@
 import React from "react";
 
-import imageCompression from "browswer-image-compression";
+import imageCompression from "browser-image-compression";
 
 import Card from "react-bootstrap/Card";
 
@@ -8,7 +8,7 @@ export default class imageCompressor extends React.Component {
     constructor() {
         super();
         this.state = {
-            compressedLink: "http://navparivatan.in/wp-content/uploads/2019/11/placeholder.png",
+            compressedLink: "http://navparivartan.in/wp-content/uploads/2018/11/placeholder.png",
             originalImage: "",
             originalLink: "",
             clicked: false,
@@ -60,16 +60,11 @@ export default class imageCompressor extends React.Component {
 
     render() {
         return (
-            <div className="m-5">
-                <div className="text-light text-center">
-                    <h1>Three Simple Steps</h1>
-                    <h3>1. Upload Image</h3>
-                    <h3>2. Click on Compress</h3>
-                    <h3>3. Download Compressed Image</h3>
-                </div>
-
+            <div className="m-5 text-light text-center">
+                <h1>Image Compressor 📷</h1>
                 <div className="row mt-5">
                     <div className="col-xl-4 col-lg-4 col-md-12 col-sm-12">
+                        <h3>1. Upload Image</h3>
                         {this.state.uploadImage ? (
                             <Card.Img
                                 className="ht"
@@ -92,7 +87,8 @@ export default class imageCompressor extends React.Component {
                             ></input>
                         </div>
                     </div>
-                    <div className="col-xl-4 col-lg-4 col-md-12 mb-5 mt05 col-sm-12 d-flex justify-content-center align-items-baseline">
+                    <div className="col-xl-4 col-lg-4 col-md-12 mb-5 mt05 col-sm-12 justify-content-center align-items-baseline">
+                        <h3 className="mt-5 ht">2. Click on Compress</h3>
                         <br />
                         {this.state.outputFileName ? (
                             <button
@@ -107,12 +103,13 @@ export default class imageCompressor extends React.Component {
                             )}
                     </div>
 
-                    <div className="col-xl-4 col-lg-4 col-md-12 col-sm-12 mt-3">
+                    <div className="col-xl-4 col-lg-4 col-md-12 col-sm-12">
+                        <h3>3. Download Compress Image</h3>
                         <Card.Img variant="top" src={this.state.compressedLink}></Card.Img>
                         {this.state.clicked ? (
                             <div className="d-flex justify-content-center">
                                 <a
-                                    href="{this.state.compressedLink"
+                                    href={this.state.compressedLink}
                                     download={this.state.outputFileName}
                                     className="mt-2 btn btn-dark w-75"
                                 >
